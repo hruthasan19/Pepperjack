@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background: url('../assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.full-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
